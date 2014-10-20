@@ -1,4 +1,3 @@
-//FileStart:default.js 
 var color;
  var camera, cameraTarget, scene, renderer;
  var group, textMesh1, textMesh2, textGeo, material;
@@ -146,4 +145,3 @@ var color;
   renderer.setClearColor(new THREE.Color().setRGB(1.0, 1.0, 1.0)); 
 	renderer.Leia_render(scene, camera);
  }
- //FileEnd
